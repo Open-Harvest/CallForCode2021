@@ -15,6 +15,8 @@ import { CatalogComponent } from './pages/catalog/catalog.component';
 import { DocsComponent } from './pages/docs/docs.component';
 import { SupportComponent } from './pages/support/support.component';
 import { Link1Component } from './pages/link1/link1.component';
+import { LotFormComponent } from './pages/lot-form/lot-form.component';
+import { CropFormComponent }from './pages/crop-form/crop-form.component';
 import { InputComponentComponent } from './input-component/input-component.component';
 import { ButtonComponentComponent } from './button-component/button-component.component';
 
@@ -27,6 +29,8 @@ import { ButtonComponentComponent } from './button-component/button-component.co
 		DocsComponent,
 		SupportComponent,
 		Link1Component,
+		LotFormComponent,
+		CropFormComponent,
 		InputComponentComponent,
 		ButtonComponentComponent
 	],

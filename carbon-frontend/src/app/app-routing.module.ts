@@ -4,7 +4,8 @@ import { CatalogComponent } from './pages/catalog/catalog.component';
 import { DocsComponent } from './pages/docs/docs.component';
 import { SupportComponent } from './pages/support/support.component';
 import { Link1Component } from './pages/link1/link1.component';
-//import { LotFormComponent } from './pages/lot-form/lot-form.component';
+import { LotFormComponent } from './pages/lot-form/lot-form.component';
+import { CropFormComponent } from './pages/crop-form/crop-form.component';
 
 const routes: Routes = [
 	{
@@ -27,10 +28,14 @@ const routes: Routes = [
 		path: 'link1',
 		component: Link1Component
 	},
-	/*{
+	{
 		path: 'lot-form',
 		component: LotFormComponent
-	} */
+	} ,
+	{
+		path: 'crop-form',
+		component: CropFormComponent
+	}
 ];
 
 @NgModule({
