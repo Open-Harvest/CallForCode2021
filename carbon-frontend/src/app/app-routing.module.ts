@@ -6,7 +6,7 @@ import { SupportComponent } from './pages/support/support.component';
 import { Link1Component } from './pages/link1/link1.component';
 import { LotFormComponent } from './pages/lot-form/lot-form.component';
 import { CropFormComponent } from './pages/crop-form/crop-form.component';
-
+import { FarmerViewComponent } from './pages/farmer-view/farmer-view.component';
 const routes: Routes = [
 	{
 		path: '',
@@ -35,6 +35,10 @@ const routes: Routes = [
 	{
 		path: 'crop-form',
 		component: CropFormComponent
+	},
+	{
+		path: 'farmer-view',
+		component: FarmerViewComponent
 	}
 ];
 

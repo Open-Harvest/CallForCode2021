@@ -1,0 +1,15 @@
+<p>search-component works!</p>
+<div style="width: 300px">
+    <ibm-combo-box
+        
+        invalid="invalid"
+        size="size"
+        label="label"
+        helperText="Search for your lot name..."
+        items="items"
+        theme="theme"
+        (selected)="onSelected()"
+        (search)="onSearch($event)">
+        <ibm-dropdown-list></ibm-dropdown-list>
+    </ibm-combo-box>
+</div>

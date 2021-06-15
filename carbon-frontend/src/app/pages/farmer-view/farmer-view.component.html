@@ -1,0 +1,28 @@
+<h1>Farmer View</h1>
+
+<p>Welcome to your view</p>
+
+
+<button ibmButton="ibmButton" size="size" >Add lot</button>
+&nbsp;
+<button ibmButton="ibmButton" size="size" >Add crop</button>
+&nbsp;
+
+<p>Claimed land</p>
+<div style="width: 300px">
+    <ibm-combo-box
+        
+        invalid="invalid"
+        size="size"
+        label="Search for your lot name..."
+        helperText="Search for your lot name..."
+        items="items"
+        theme="theme"
+        selected="onSelected()"
+        search="onSearch($event)">
+        <ibm-dropdown-list></ibm-dropdown-list>
+    </ibm-combo-box>
+</div>
+
+
+
