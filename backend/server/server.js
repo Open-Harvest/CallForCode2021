@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
-const nameRoutes = require('./routes/names-route.js');
+const farmerRoutes = require('./routes/farmer-route.js');
 const healthRoutes = require('./routes/health-route.js');
 
 const app = express();
@@ -23,7 +23,7 @@ app.use(express.static(path.join('public')));
 
 // routes and api calls
 app.use('/health', healthRoutes);
-app.use('/api/names', nameRoutes);
+app.use('/api/farmer', farmerRoutes);
 
 // start node server
 const port = process.env.PORT || 3000;
